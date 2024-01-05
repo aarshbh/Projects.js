@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coordian</title>
+    <script src="script.js" defer></script>
+    <style>
+      @import url(style.css);
+    </style>
+  </head>
+  <body>
+    <div class="accordian">
+      <h2 class="accordian-title">Frequently asked questions</h2>
+
+
+      <div class="content-container">
+        <div class="question">
+          What is the difference between var, let, and const in JavaScript?
+        </div>
+        <div class="answer">
+          Answer: var is function-scoped and is hoisted to the top of its
+          containing function. let and const are block-scoped and are not
+          hoisted. let allows for reassignment of the variable value, while
+          const does not
+        </div>
+       </div>
+
+
+
+        <div class="content-container">
+          <div class="question">What is the event loop in JavaScript?</div>
+          <div class="answer">
+            Answer: The event loop is a crucial concept in JavaScript that
+            handles asynchronous operations. It continuously checks the message
+            queue for new tasks and executes them in a non-blocking manner.
+            JavaScript is single-threaded, meaning it can only execute one
+            operation at a time. The event loop allows asynchronous operations
+            (like fetching data or handling user input) to be managed without
+            blocking the main thread.
+          </div>
+        </div>
+
+
+
+        <div class="content-container">
+          <div class="question">
+            Explain the concept of closures in JavaScrip
+          </div>
+          <div class="answer">
+            Answer: A closure is a function bundled together with references to
+            its outer variables, even after the outer function has finished
+            executing. Closures allow for the creation of private variables and
+            encapsulation of functionality. They are often used to create
+            functions with persistent state or to create modular and reusable
+            code
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
